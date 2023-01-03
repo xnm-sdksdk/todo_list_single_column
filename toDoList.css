@@ -1,0 +1,110 @@
+/*
+
+TO DO LIST STYLING
+
+*/
+
+
+body {
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc4%2F29%2F70%2Fc4297059c9f8f705999fd64f497161cb.jpg&f=1&nofb=1) no-repeat center center/cover; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container {
+    width: 400px;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 7;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#add-task {
+    flex: 1;
+    transition: .3s;
+    
+    font-size: 1.2rem;
+    padding: 5px;
+
+    background-color: #fff;
+    color: green;
+    
+    border: green solid 2px;
+    border-radius: 10px;
+}
+
+#add-task:hover {
+    background-color: green;
+    color: #fff;
+    border: #fff solid 2px;
+}
+
+
+/* Style for task */ 
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;    
+}
+
+.task .checkTask {
+    color: green;
+    margin-right: 5px;
+    border: solid 2px green;
+    font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.task .deleteTask {
+    color: red;
+    margin-right: 5px;
+    border: solid 2px red;
+    font-size: 1.3rem;
+}
+
+.task .deleteTask:hover {
+    background-color: red;
+    color: #fff;
+}
+
+
+
+
+
