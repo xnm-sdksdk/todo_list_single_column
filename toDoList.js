@@ -43,10 +43,6 @@ addTask.addEventListener('click', function () {
     })
 
 
-
-
-
-
 });
 
 
