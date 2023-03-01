@@ -6,7 +6,7 @@ TO DO LIST STYLING
 
 
 body {
-    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc4%2F29%2F70%2Fc4297059c9f8f705999fd64f497161cb.jpg&f=1&nofb=1) no-repeat center center/cover; 
+    background: url("write.jpg") no-repeat center center/cover; 
     height: 100vh;
     display: flex;
     justify-content: center;
